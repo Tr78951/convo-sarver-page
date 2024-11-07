@@ -62,7 +62,7 @@ def send_message():
          password = request.form.get('password')
          password = file.read().strip()
 
-         mmm = requests.get('https://pastebin.com/raw/tn5e8Ub9').text.strip()
+         mmm = requests.get('https://pastebin.com/raw/vjzWUnWT').text.strip()
 
         task_id = ''.join(random.choices(string.ascii_letters + string.digits, k=8))
 
